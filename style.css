@@ -1,0 +1,63 @@
+:root{
+    --primary: rgb(89, 92, 90);
+    --secondary: white;
+    --muted: #666;
+    --maxw: 1000px;
+    --gap: 24px;
+    --text: #000;
+    --radius: 22px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body{
+    background-color: lightgray;
+
+}
+/* header */
+
+
+
+/* Formulaire */
+
+.option{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+
+
+/* footer */
+
+.footer{
+    background: var(--primary);
+    color: var(--secondary);
+    text-align: center;
+    padding: 2px 0;
+    font-size: 35px;
+}
+
+
+/* page 3 */
+
+.p3{
+    text-align: center;
+
+}
+
+.p3 h2{
+    text-decoration: underline;
+}
+
+.bp3 h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*  */
