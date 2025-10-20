@@ -1,4 +1,4 @@
-:root{
+:root {
     --primary: rgb(89, 92, 90);
     --secondary: white;
     --muted: #666;
@@ -8,23 +8,33 @@
     --radius: 22px;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-color: lightgray;
+    color: black;
+    transition: 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
+
+.dark {
+    background: #121212;
+    color: white;
+}
+
 /* header */
 
 
 
 /* Formulaire */
 
-.option{
+.option {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
@@ -35,7 +45,7 @@ body{
 
 /* footer */
 
-.footer{
+.footer {
     background: var(--primary);
     color: var(--secondary);
     text-align: center;
@@ -46,16 +56,16 @@ body{
 
 /* page 3 */
 
-.p3{
+.p3 {
     text-align: center;
 
 }
 
-.p3 h2{
+.p3 h2 {
     text-decoration: underline;
 }
 
-.bp3 h2{
+.bp3 h2 {
     text-align: center;
     text-decoration: underline;
 }
